@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/fonts.css"/>
+
+</head>
+<body>
+
+<div id="header1"> <h1>Users List</h1></div>
+<div id="container1" class="container">
+
+
+    <div class="table"></div>
+</div>
+
+<div class="col-lg-6" id="editState">
+    <h2>Edit user</h2>
+    <div>
+        <form name="editForm" id="editForm"></form>
+    </div>
+</div>
+<div class="col-lg-6" id="newUser">
+    <h2>New user</h2>
+    <div>
+        <form name="editForm" id="newUserForm"></form>
+    </div>
+</div>
+
+
+<div class="modal fade" id="confirmDelete" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Deleting user</h4>
+        </div>
+        <div class="modal-body">
+            <p1 id="delUserP1"></p1>
+        </div>
+        <div class="modal-footer">
+            <button id="btnConfirmDelete" type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+</div>
+
+<script src="assets/libs/jquery/jquery-2.1.4.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/function.js"></script>
+<script type="text/javascript" src="assets/js/task1.js"></script>
+</body>
+</html>

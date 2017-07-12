@@ -1,0 +1,16 @@
+#header1{
+    text-align: center;
+}
+#header > div, #list .row > div {
+    float: left;
+    margin: 0px;
+    padding:20px;
+    border:1px solid black;
+}
+
+#header:after, #list .row:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
